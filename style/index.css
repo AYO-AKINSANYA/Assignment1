@@ -1,4 +1,13 @@
-main {
-    background-color: #f0f0f033;
-    overflow-y: relative;
+@media screen and (min-width:0px) and (orientation: landscape) and (min-height: 0px) {
+    main {
+        background-color: #f0f0f033;
+        overflow-y: relative;
+    }
+}
+
+@media screen and (max-width:1045px) and (orientation: portrait) and (max-height: 1045px) and (max-resolution: 1045px) {
+    main {
+        background-color: #f0f0f033;
+        overflow-y: relative;
+    }
 }
