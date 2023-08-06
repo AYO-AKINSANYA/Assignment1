@@ -1,91 +1,43 @@
-@media screen and (min-width:0px) and (orientation: landscape) and (min-height: 0px) {
-    main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 70px 60px;
-        background-color: #f0f0f033;
-        overflow-y: relative;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 60px;
+    background-color: #f0f0f033;
+    overflow-y: relative;
 
-    }
-
-    main h1 {
-        color: #696464a3;
-    }
-
-
-    table {
-        /* border-collapse: collapse; */
-        border: 1px solid black;
-        margin: auto;
-        padding: 5px;
-    }
-
-    th,
-    td {
-        border: 1px solid black;
-        padding: 5px;
-    }
-
-    th {
-        background-color: lightgray;
-        text-decoration: solid;
-        color: #696464a3;
-    }
-
-    .mathematics,
-    .english,
-    .physics,
-    .chemistry,
-    .biology,
-    .total {
-        text-align: center;
-    }
 }
 
-@media screen and (max-width:1045px) and (orientation: portrait) and (max-height: 1045px) and (max-resolution: 1045px) {
-    main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 70px 60px;
-        background-color: #f0f0f033;
-        overflow-y: relative;
-
-    }
-
-    main h1 {
-        color: #696464a3;
-    }
+main h1 {
+    color: #696464a3;
+}
 
 
-    table {
-        /* border-collapse: collapse; */
-        border: 1px solid black;
-        margin: auto;
-        padding: 5px;
-    }
+table {
+    /* border-collapse: collapse; */
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+}
 
-    th,
-    td {
-        border: 1px solid black;
-        padding: 5px;
-    }
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
 
-    th {
-        background-color: lightgray;
-        text-decoration: solid;
-        color: #696464a3;
-    }
+th {
+    background-color: lightgray;
+    text-decoration: solid;
+    color: #696464a3;
+}
 
-    .mathematics,
-    .english,
-    .physics,
-    .chemistry,
-    .biology,
-    .total {
-        text-align: center;
-    }
+.mathematics,
+.english,
+.physics,
+.chemistry,
+.biology,
+.total {
+    text-align: center;
 }

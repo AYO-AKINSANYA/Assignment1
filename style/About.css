@@ -1,48 +1,21 @@
-@media screen and (min-width:0px) and (orientation: landscape) and (min-height: 0px) {
-
-    main {
-        background-color: #f0f0f033;
-        overflow-y: relative;
-    }
-
-    .logo-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-
-    }
-
-    .logo-container img {
-        max-width: 100%;
-        background-color: #d2c5d8;
-        box-shadow: 10px 10px 5px 0px #696464a3;
-        -webkit-box-shadow: 10px 10px 5px 0px #696464a3;
-        -moz-box-shadow: 10px 10px 5px 0px #696464a3;
-        border-radius: 500px 500px 500px 500px;
-    }
+main {
+    background-color: #f0f0f033;
+    overflow-y: relative;
 }
 
-@media screen and (max-width:1045px) and (orientation: portrait) and (max-height: 1045px) and (max-resolution: 1045px) {
-    main {
-        background-color: #f0f0f033;
-        overflow-y: relative;
-    }
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 
-    .logo-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
+}
 
-    }
-
-    .logo-container img {
-        max-width: 100%;
-        background-color: #d2c5d8;
-        box-shadow: 10px 10px 5px 0px #696464a3;
-        -webkit-box-shadow: 10px 10px 5px 0px #696464a3;
-        -moz-box-shadow: 10px 10px 5px 0px #696464a3;
-        border-radius: 500px 500px 500px 500px;
-    }
+.logo-container img {
+    max-width: 100%;
+    background-color: #d2c5d8;
+    box-shadow: 10px 10px 5px 0px #696464a3;
+    -webkit-box-shadow: 10px 10px 5px 0px #696464a3;
+    -moz-box-shadow: 10px 10px 5px 0px #696464a3;
+    border-radius: 500px 500px 500px 500px;
 }

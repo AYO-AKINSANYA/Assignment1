@@ -1,180 +1,87 @@
-@media screen and (min-width:0px) and (orientation: landscape) and (min-height: 0px) {
-
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Montserrat', sans-serif;
-
-    }
-
-    main {
-        max-width: 100vw;
-        max-height: calc(100vw - 110px);
-        margin: 5px;
-        margin-top: 110px;
-    }
-
-    h1,
-    h2 {
-        margin: 0;
-    }
-
-    button {
-        cursor: pointer;
-    }
-
-
-    header {
-        background-color: #d2c5d8;
-        padding: 0px 20px;
-        height: 110px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        z-index: 1;
-    }
-
-    header h1 {
-        color: #a0a0a0;
-        margin: 0;
-        font-size: 20px;
-    }
-
-    nav ul {
-        display: flex;
-        justify-content: space-between;
-        list-style-type: none;
-        padding: 0;
-        width: 400px;
-    }
-
-    header nav a {
-        color: #a0a0a0;
-        font-size: 15px;
-        text-decoration: none;
-    }
-
-    .ProfilePic {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background: transparent;
-        border: none;
-        width: 200px;
-        height: 80px;
-        padding: 0px 15px;
-    }
-
-    .ProfilePic p {
-        color: #a0a0a0;
-    }
-
-    .ProfilePic img {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-    }
-
-    .ProfilePic svg path {
-        fill: #a0a0a0;
-    }
+* {
+    box-sizing: border-box;
 }
 
-@media screen and (max-width:1045px) and (orientation: portrait) and (max-height: 1045px) and (max-resolution: 1045px) {
-    * {
-        box-sizing: border-box;
-    }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
 
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Montserrat', sans-serif;
+}
 
-    }
+main {
+    max-width: 100vw;
+    max-height: calc(100vw - 110px);
+    margin: 5px;
+    margin-top: 110px;
+}
 
-    main {
-        max-width: 100vw;
-        max-height: calc(100vw - 110px);
-        margin: 5px;
-        margin-top: 110px;
-    }
+h1,
+h2 {
+    margin: 0;
+}
 
-    h1,
-    h2 {
-        margin: 0;
-    }
-
-    button {
-        cursor: pointer;
-    }
+button {
+    cursor: pointer;
+}
 
 
-    header {
-        background-color: #d2c5d8;
-        padding: 0px 20px;
-        height: 110px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        z-index: 1;
-    }
+header {
+    background-color: #d2c5d8;
+    padding: 0px 20px;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+}
 
-    header h1 {
-        color: #a0a0a0;
-        margin: 0;
-        font-size: 20px;
-    }
+header h1 {
+    color: #a0a0a0;
+    margin: 0;
+    font-size: 20px;
+}
 
-    nav ul {
-        display: flex;
-        justify-content: space-between;
-        list-style-type: none;
-        padding: 0;
-        width: 400px;
-    }
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    width: 400px;
+}
 
-    header nav a {
-        color: #a0a0a0;
-        font-size: 15px;
-        text-decoration: none;
-    }
+header nav a {
+    color: #a0a0a0;
+    font-size: 15px;
+    text-decoration: none;
+}
 
-    .ProfilePic {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background: transparent;
-        border: none;
-        width: 200px;
-        height: 80px;
-        padding: 0px 15px;
-    }
+.ProfilePic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    border: none;
+    width: 200px;
+    height: 80px;
+    padding: 0px 15px;
+}
 
-    .ProfilePic p {
-        color: #a0a0a0;
-    }
+.ProfilePic p {
+    color: #a0a0a0;
+}
 
-    .ProfilePic img {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-    }
+.ProfilePic img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
 
-    .ProfilePic svg path {
-        fill: #a0a0a0;
-    }
+.ProfilePic svg path {
+    fill: #a0a0a0;
 }
