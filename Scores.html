@@ -4,38 +4,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/Score.css">
+    <link rel="stylesheet" href="./style/Assignment.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <h1>Scores Page</h1>
+        <h1>Scores</h1>
         <nav>
             <ul>
                 <li>
-                    <a href="index.html">Home Page</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="About.html">About Page</a>
+                    <a href="About.html">About</a>
                 </li>
                 <li>
-                    <a href="ContactMe.html">Contact Me Page</a>
+                    <a href="ContactMe.html">Contact Me</a>
                 </li>
                 <li>
-                    <a href="Mentor.html"> Mentor Page</a>
+                    <a href="Mentor.html"> Mentor</a>
                 </li>
                 <li>
-                    <a href="Chess.html">Chess Page</a>
+                    <a href="Chess.html">Chess</a>
                 </li>
                 <li>
-                    <a href="Scores.html">Scores Page</a>
+                    <a href="Scores.html">Score</a>
                 </li>
             </ul>
 
         </nav>
-        <img src="ProfilePic.png" alt="ProfilePic" width=" 20px " height=" 20px "> AYOMIDE
-        <!-- <p>AYOMIDE</p> -->
+        <button class="ProfilePic">
+            <p>AYOMIDE</p>
+            <img src="./image/ProfilePic.png" alt="ProfilePic">
+            <svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 -960 960 960" width="28">
+                <path d="M480-345 240-585l43-43 197 198 197-197 43 43-240 239Z" />
+            </svg>
+            <!-- <p>AYOMIDE</p> -->
     </header>
+    <main>
+        <h1 id="school-details">St. Benedict High School - Class SS2<br> Teacher-Mr Ade</h1>
+
+        <table border="1" cellspacing="5" cellpadding="5">
+            <thead>
+                <tr>
+                    <th>S/N</th>
+                    <th>Student</th>
+                    <th>Mathematics</th>
+                    <th>English</th>
+                    <th>Physics</th>
+                    <th>Chemistry</th>
+                    <th>Biology</th>
+                    <th colspan="2">Total Scores</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="student">
+                    <td>1</td>
+                    <td>AdeKunle</td>
+                    <td class="mathematics">72</td>
+                    <td class="english">43</td>
+                    <td class="physics">78</td>
+                    <td class="chemistry">73</td>
+                    <td class="biology">37</td>
+                    <td class="total" colspan="2">303</td>
+
+                </tr>
+                <tr class="student">
+                    <td>2</td>
+                    <td>John</td>
+                    <td class="mathematics">42</td>
+                    <td class="english">64</td>
+                    <td class="physics">70</td>
+                    <td class="chemistry">55</td>
+                    <td class="biology">58</td>
+                    <td class="total" colspan="2">289</td>
+                </tr>
+                <tr class="student">
+                    <td>3</td>
+                    <td>Peter</td>
+                    <td class="mathematics">62</td>
+                    <td class="english">40</td>
+                    <td class="physics">73</td>
+                    <td class="chemistry">75</td>
+                    <td class="biology">99</td>
+                    <td class="total" colspan="2">349</td>
+                </tr>
+                <tr class="student">
+                    <td>4</td>
+                    <td>Rukayat</td>
+                    <td class="mathematics">77</td>
+                    <td class="english">75</td>
+                    <td class="physics">78</td>
+                    <td class="chemistry">75</td>
+                    <td class="biology">82</td>
+                    <td class="total" colspan="2">387</td>
+                </tr>
+                <tr class="student">
+                    <td>5</td>
+                    <td>Paul</td>
+                    <td class="mathematics">72</td>
+                    <td class="english">40</td>
+                    <td class="physics">72</td>
+                    <td class="chemistry">70</td>
+                    <td class="biology">97</td>
+                    <td class="total" colspan="2">351</td>
+                </tr>
+                <tr class="student">
+                    <td>6</td>
+                    <td>Victor</td>
+                    <td class="mathematics">76</td>
+                    <td class="english">64</td>
+                    <td class="physics">48</td>
+                    <td class="chemistry">99</td>
+                    <td class="biology">37</td>
+                    <td class="total" colspan="2">324</td>
+                </tr>
+                <tr class="student">
+                    <td>7</td>
+                    <td>John</td>
+                    <td class="mathematics">62</td>
+                    <td class="english">54</td>
+                    <td class="physics">78</td>
+                    <td class="chemistry">75</td>
+                    <td class="biology">64</td>
+                    <td class="total" colspan="2">333</td>
+                </tr>
+                <tr class="student">
+                    <td>8</td>
+                    <td>Doe</td>
+                    <td class="mathematics">52</td>
+                    <td class="english">84</td>
+                    <td class="physics">48</td>
+                    <td class="chemistry">85</td>
+                    <td class="biology">27</td>
+                    <td class="total" colspan="2">296</td>
+                </tr>
+                <tr class="student">
+                    <td>9</td>
+                    <td>Stephen</td>
+                    <td class="mathematics">92</td>
+                    <td class="english">44</td>
+                    <td class="physics">78</td>
+                    <td class="chemistry">65</td>
+                    <td class="biology">61</td>
+                    <td class="total" colspan="2">340</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+    </main>
+
+
 </body>
 
 </html>

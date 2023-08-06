@@ -4,6 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/ContactMe.css">
+    <link rel="stylesheet" href="./style/Assignment.css">
     <title>Document</title>
 </head>
 
@@ -13,55 +20,75 @@
         <nav>
             <ul>
                 <li>
-                    <a href="index.html">Home Page</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="About.html">About Page</a>
+                    <a href="About.html">About</a>
                 </li>
                 <li>
-                    <a href="ContactMe.html">Contact Me Page</a>
+                    <a href="ContactMe.html">Contact Me</a>
                 </li>
                 <li>
-                    <a href="Mentor.html"> Mentor Page</a>
+                    <a href="Mentor.html"> Mentor</a>
                 </li>
                 <li>
-                    <a href="Chess.html">Chess Page</a>
+                    <a href="Chess.html">Chess</a>
                 </li>
                 <li>
-                    <a href="Scores.html">Scores Page</a>
+                    <a href="Scores.html">Scores</a>
                 </li>
             </ul>
 
         </nav>
-        <img src="ProfilePic.png" alt="ProfilePic" width=" 20px " height=" 20px "> AYOMIDE
-        <!-- <p>AYOMIDE</p> -->
+        <button class="ProfilePic">
+            <p>AYOMIDE</p>
+            <img src="./image/ProfilePic.png" alt="ProfilePic">
+            <svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 -960 960 960" width="28">
+                <path d="M480-345 240-585l43-43 197 198 197-197 43 43-240 239Z" />
+            </svg>
+            <!-- <p>AYOMIDE</p> -->
     </header><br>
 
     <main>
+        <h2>Details</h2><br>
+
         <form action="">
             <label for=" Firstname">Firstname</label><br>
             <input type="text" id="Firstname" placeholder=".e.g Jack" required><br><br>
             <label for="Lastname">Lastname</label><br>
             <input type="text" id="Lastname" placeholder=".e.g Black" required><br><br>
+            <label for="Gender">Gender</label> <br>
+            <select name="Gender" id="Gender">
+                <option value="" selected disabled class="disabled">Select an Option</Option>
+                </option>
+                <option value="Male" class="disabled">Male</option>
+                <option value="Female" class="disabled">Female</option>
+                <option value="Others" class="disabled">Others</option>
+
+            </select> <br><br>
             <label for="email">Email</label><br>
             <input type="email" name="email" id="email" placeholder=".e.g jackblack1@gmail.com"><br><br>
             <label for="To">To</label><br>
             <input disabled type="text" id="To" placeholder="aaakinsanya@gmail.com"><br><br>
             <label for="Subject">Subject</label><br>
             <textarea name="Subject" id="Subject" cols="20" rows="10"></textarea><br><br>
-            <p>--------------or---------------<br><br>
-                <img src="whatsapp.jpeg" alt="whatsapp" width=" 20px " height=" 20px ">Whatsapp:09087635456<br><br>
-                <img src="instagram.jpeg" alt="instagram" width=" 20px " height=" 20px ">Instagram:ayoooooo
+            <!-- <input type="submit" value="Send Message"> -->
+            <button class="Message">Send Message</button>
+            <p>~~~~~~~~~~~~~~~~~~~~~~~~or~~~~~~~~~~~~~~~~~~~~~~~~~<br><br>
+                <img src="./image/whatsapp.jpeg" alt="whatsapp" width=" 20px "
+                    height=" 20px ">Whatsapp:09087635456<br><br>
+                <img src="./image/instagram.jpeg" alt="instagram" width=" 20px " height=" 20px ">Instagram:ayoooooo
             </p>
         </form>
     </main>
+    <footer>
+        <p>At this website, we take your privacy seriously, and we are committed to safeguarding your personal
+            information.This privacy statement is designed to provide transparency into our data practices and assure
+            you that any information you provide to us will be treated with the utmost confidentiality and will not be
+            shared with any third party without your explicit consent.</p>
+    </footer>
 </body>
 
-<footer>
-    <p>At this website, we take your privacy seriously, and we are committed to safeguarding your personal information.
-        This privacy statement is designed to provide transparency into our data practices and assure you that any
-        information you provide to us will be treated with the utmost confidentiality and will not be shared with any
-        third party without your explicit consent.</p>
-</footer>
+
 
 </html>

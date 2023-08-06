@@ -1,0 +1,88 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 60px;
+    background-color: #f0f0f033;
+    overflow-y: relative;
+}
+
+main h2 {
+    color: #696464a3;
+}
+
+form {
+    width: 500px;
+    height: auto;
+    padding: 16px 16px;
+    border-radius: 8px;
+    box-shadow: 6px 6px 5px 6px #696464a3;
+    -webkit-box-shadow: 6px 6px 5px 6px #696464a3;
+    -moz-box-shadow: 6px 6px 5px 6px #696464a3;
+}
+
+form label {
+    font-size: 16px;
+}
+
+form input,
+form select,
+form textarea,
+.Message {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    margin: 5px 0px 4px;
+    border: 1px solid #2e2a2a5a;
+    outline: 1px solid #2725255a;
+    font-size: 14px;
+    padding: 0px 8px;
+}
+
+
+form input:nth-child(n-1) {
+    background-color: #f0f0f0;
+}
+
+form select:nth-child(n-1) {
+    background-color: #f0f0f0;
+}
+
+form textarea:nth-child(n-1) {
+    background-color: #f0f0f0;
+}
+
+form input::placeholder {
+    color: #474646;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form textarea {
+    height: 150px;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.disabled {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.Message {
+    border: none;
+    background-color: #FCFBF8;
+    color: #474646;
+    transition: 0.5s ease;
+}
+
+.Message:hover {
+    background-color: #c0c0c0;
+}
+
+footer {
+    background-color: #d2c5d8;
+    overflow-y: hidden;
+    position: relative;
+    margin: 2px;
+}

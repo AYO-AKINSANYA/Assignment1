@@ -1,0 +1,26 @@
+smain {
+    background-color: #f0f0f033;
+    overflow-y: relative;
+}
+
+main h2,
+h3 {
+    color: #696464a3
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo-container img {
+    max-width: 100%;
+    background-color: #d2c5d8;
+    box-shadow: 10px 10px 5px 0px #696464a3;
+    -webkit-box-shadow: 10px 10px 5px 0px #696464a3;
+    -moz-box-shadow: 10px 10px 5px 0px #696464a3;
+    border-radius: 500px 500px 500px 500px;
+}
